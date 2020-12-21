@@ -1,7 +1,12 @@
+Trade-off between Total Cost and Reliability for Anytown Water Distribution Network
+Raziyeh Farmani1, Godfrey A. Walters2and Dragan A. Savic
+"
+
 A minimum pressure of at least 276 kP a (40 psi) must be provided at all nodes at average day flow as
 well as instantaneous peak flow, which is 1.8 times the average day flow. 
 
 The system is also subject to fire flows under which it must supply water at a minimum pressure of at
 least 138 kP a (20 psi). Details of different loading conditions and the variation in water use throughout the day are from Walters et al. (1999).
 
+"
 
