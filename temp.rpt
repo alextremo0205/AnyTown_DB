@@ -1,4 +1,4 @@
-  Page 1                                    Mon Jan 04 11:03:26 2021
+  Page 1                                    Thu Jan 14 11:47:12 2021
 
   ******************************************************************
   *                           E P A N E T                          *
@@ -7,39 +7,8 @@
   *                         Version 2.2                            *
   ******************************************************************
   
-  Analysis begun Mon Jan 04 11:03:26 2021
+  Analysis begun Thu Jan 14 11:47:12 2021
 
+  WARNING: Negative pressures at 0:00:00 hrs.
    
-  Hydraulic Status:
-  -----------------------------------------------------------------------
-     0:00:00: Balanced after 5 trials
-     0:00:00: Reservoir 65 is emptying
-     0:00:00: Reservoir 165 is emptying
-   
-     3:00:00: Balanced after 2 trials
-   
-     6:00:00: Balanced after 2 trials
-   
-     9:00:00: Balanced after 2 trials
-   
-    12:00:00: Balanced after 2 trials
-   
-    15:00:00: Balanced after 2 trials
-   
-    18:00:00: Balanced after 2 trials
-   
-    21:00:00: Balanced after 2 trials
-   
-    24:00:00: Balanced after 2 trials
-   
-  Water Quality Mass Balance (mg)
-  ================================
-  Initial Mass:      0.00000e+000
-  Mass Inflow:       0.00000e+000
-  Mass Outflow:      0.00000e+000
-  Mass Reacted:      0.00000e+000
-  Final Mass:        0.00000e+000
-  Mass Ratio:         1.00000
-  ================================
-
-  Analysis ended Mon Jan 04 11:03:26 2021
+  Analysis ended Thu Jan 14 11:47:12 2021
