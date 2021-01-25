@@ -1,4 +1,4 @@
-  Page 1                                    Mon Jan 04 11:03:26 2021
+  Page 1                                    Thu Jan 07 10:00:52 2021
 
   ******************************************************************
   *                           E P A N E T                          *
@@ -7,12 +7,12 @@
   *                         Version 2.2                            *
   ******************************************************************
   
-  Analysis begun Mon Jan 04 11:03:26 2021
+  Analysis begun Thu Jan 07 10:00:52 2021
 
    
   Hydraulic Status:
   -----------------------------------------------------------------------
-     0:00:00: Balanced after 5 trials
+     0:00:00: Balanced after 7 trials
      0:00:00: Reservoir 65 is emptying
      0:00:00: Reservoir 165 is emptying
    
@@ -42,4 +42,4 @@
   Mass Ratio:         1.00000
   ================================
 
-  Analysis ended Mon Jan 04 11:03:26 2021
+  Analysis ended Thu Jan 07 10:00:52 2021
