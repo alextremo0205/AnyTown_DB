@@ -204,10 +204,60 @@ def message(self, x_j: Tensor) -> Tensor:
 
 
 
-pass
+#######################################################################################
 
-, K = 2
-, K = 2
+class RunManager():
+    self.epoch_count = 0
+    self.epoch_loss = 0
+    self.epoch_num_correct = 0
+    self.epoch_start_time = None
+
+    self.run_params = None
+    self.run_count = 0
+    self.run_data = []
+    self.run_start_time = None
+
+    self.network = None
+    self.loader = None
+    self.tb = None
+    
+    def begin_run(self, run, network, loader):
+        self.run_start_time = time.time()
+
+        self.run_params = run
+        self.run_count += 1
+
+        self.network = network
+    def end_run(self):
+        self.epoch_count = 0
+    
+    def begin_epoch(self):
+        self.epoch_start_time = time.time()
+
+        self.epoch_count += 1
+        self.epoch_loss = 0
+        self.epoch_num_correct = 0
+    def end_epoch(self):
+
+        epoch_duration = time.time() - self.epoch_start_time
+        run_duration = time.time() - self.run_start_time
         
+		
+	#time.sleep(1)
+	clear_output(wait=True)
+	
+	## Batches -> To be implemented
+	#Inside of run in RunBuilder
+	data_loader_train = torch.utils.data.DataLoader(
+    train_dataset,
+    shuffle=False,
+    batch_size = run.batch_size
+    )
+		# Inside of epoch
+		iter_X_train = iter(data_loader_X_train)
 
+200 Epochs -> 270.9028 seconds
 
+50 Epochs -> 63.5913 seconds
+
+50 Epochs with Joblib(-1 processors) -> 206.75 seconds
