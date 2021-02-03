@@ -134,3 +134,32 @@ Model description:
 	-Run(lr=0.0001, weight_decay=0, N_epochs=10, hid_units=32, K=3) 94.93 seconds
 	Total parameters: 	 4352 
 	}
+	
+Model description:
+Graph filters varying lr, hidden units, and Hop
+		 epoch  0 	  total loss:   0.42261 	 R2:  -23.701182337558347
+		 epoch  4 	  total loss:   0.25925 	 R2:  -18.054885738156916
+		 epoch  8 	  total loss:   0.25584 	 R2:  -15.174927900540357
+		 epoch  9 	  total loss:   0.26562 	 R2:  -15.805437704750187
+	-Run(lr=0.0001, weight_decay=0, N_epochs=10, hid_units=60, K=3) 120.74 seconds
+	Total parameters: 	 14880 
+
+	-------------------New configuration-------------------
+	C:\Programs\Anaconda3\envs\PyTorch_Env\lib\site-packages\torch\nn\modules\container.py:434: UserWarning: Setting attributes on ParameterList is not supported.
+	  warnings.warn("Setting attributes on ParameterList is not supported.")
+		 epoch  0 	  total loss:   0.43026 	 R2:  -25.216922561609106
+		 epoch  4 	  total loss:   0.43026 	 R2:  -25.216908605837176
+		 epoch  8 	  total loss:   0.43026 	 R2:  -25.216894575776656
+		 epoch  9 	  total loss:   0.43026 	 R2:  -25.216880608798174
+	-Run(lr=1e-05, weight_decay=0, N_epochs=10, hid_units=10, K=1) 15.69 seconds
+	Total parameters: 	 240 
+
+	-------------------New configuration-------------------
+	C:\Programs\Anaconda3\envs\PyTorch_Env\lib\site-packages\torch\nn\modules\container.py:434: UserWarning: Setting attributes on ParameterList is not supported.
+	  warnings.warn("Setting attributes on ParameterList is not supported.")
+		 epoch  0 	  total loss:   0.1851 	 R2:  -10.347008515942258
+		 epoch  4 	  total loss:   0.18471 	 R2:  -10.323531641847516
+		 epoch  8 	  total loss:   0.18432 	 R2:  -10.300308299528242
+		 epoch  9 	  total loss:   0.18423 	 R2:  -10.294536337003256
+	-Run(lr=1e-05, weight_decay=0, N_epochs=10, hid_units=10, K=2) 46.03 seconds
+	Total parameters: 	 360 

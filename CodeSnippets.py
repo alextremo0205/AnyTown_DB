@@ -261,3 +261,53 @@ class RunManager():
 50 Epochs -> 63.5913 seconds
 
 50 Epochs with Joblib(-1 processors) -> 206.75 seconds
+
+
+# data = dataset[0].to(device)
+#model.conv1
+
+'''
+Escape Sequence       Meaning
+\t                    Tab
+\\                    Inserts a back slash (\)
+\'                    Inserts a single quote (')
+\"                    Inserts a double quote (")
+\n                    Inserts a ASCII Linefeed (a new line)
+'''
+
+
+#             if i%2 == 0:
+#                 self.num_params.append(parameter.reshape(-1,1).shape[0])
+#             else:
+#                 self.num_params[-1] += parameter.reshape(-1,1).shape[0]
+#             i += 1
+
+
+# Roberto's architecture
+
+    K = [3],
+    lr = [0.0001],
+    weight_decay = [0],
+    dropout = [0.5],
+    hid_features = [32],
+    batch_size = [5]
+	N_epochs = [1000]
+	
+	    
+		
+		self.gc1 = GCNLayer(in_features, hid_features, K)
+        self.gc2 = GCNLayer(hid_features, hid_features, K)
+        self.gc3 = GCNLayer(hid_features, out_features, K)
+	
+	
+	    x = self.gc1(X, A_batch)
+        x = F.leaky_relu(x)
+#         x = F.dropout(x, self.dropout, training=self.training)
+       
+        x = self.gc2(x, A_batch)
+        x = F.leaky_relu(x)
+#         x = F.dropout(x, self.dropout, training=self.training)
+        
+        x = self.gc3(x, A_batch)
+#         x = F.leaky_relu(x)
+        x = F.dropout(x, self.dropout, training=self.training)
