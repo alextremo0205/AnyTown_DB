@@ -183,3 +183,18 @@ Model description:
 	-Run(lr=0.0001, weight_decay=0, N_epochs=50, hid_units=64, K=2) 545.83 seconds
 	Total parameters: 	 12672 
 
+Model description:
+	3 Graph filters, 3 sigmoids, normalized inputs and outputs
+		 epoch  0 	  total loss:   23.18271 	 R2:  0.0663
+		 epoch  5 	  total loss:   9.12871 	 R2:  0.4894
+		 epoch  10 	  total loss:   7.90073 	 R2:  0.5514
+		 epoch  15 	  total loss:   7.13729 	 R2:  0.5898
+		 epoch  20 	  total loss:   6.6556 	 R2:  0.6134
+		 epoch  25 	  total loss:   6.3396 	 R2:  0.6289
+		 epoch  30 	  total loss:   6.10467 	 R2:  0.6402
+		 epoch  35 	  total loss:   5.91993 	 R2:  0.649
+		 epoch  40 	  total loss:   5.76046 	 R2:  0.6566
+		 epoch  45 	  total loss:   5.62643 	 R2:  0.6631
+		 epoch  49 	  total loss:   5.53505 	 R2:  0.6674
+	-Run(lr=0.0001, weight_decay=0, N_epochs=50, hid_units=64, K=2) 528.09 seconds
+	Total parameters: 	 12672
