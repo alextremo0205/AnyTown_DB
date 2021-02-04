@@ -136,7 +136,7 @@ Model description:
 	}
 	
 Model description:
-Graph filters varying lr, hidden units, and Hop
+	Graph filters varying lr, hidden units, and Hop
 		 epoch  0 	  total loss:   0.42261 	 R2:  -23.701182337558347
 		 epoch  4 	  total loss:   0.25925 	 R2:  -18.054885738156916
 		 epoch  8 	  total loss:   0.25584 	 R2:  -15.174927900540357
@@ -163,3 +163,23 @@ Graph filters varying lr, hidden units, and Hop
 		 epoch  9 	  total loss:   0.18423 	 R2:  -10.294536337003256
 	-Run(lr=1e-05, weight_decay=0, N_epochs=10, hid_units=10, K=2) 46.03 seconds
 	Total parameters: 	 360 
+
+Model description:
+	Three Graph filters, 2 sigmoids and a Tanh, normalized inputs (diameters) and outputs (res. index)
+		 epoch  0 	  total loss:   43.38153 	 R2:  -0.1341
+		 epoch  4 	  total loss:   9.58147 	 R2:  0.5198
+		 epoch  8 	  total loss:   8.00913 	 R2:  0.5913
+		 epoch  12 	  total loss:   7.37009 	 R2:  0.6204
+		 epoch  16 	  total loss:   6.99165 	 R2:  0.6383
+		 epoch  20 	  total loss:   6.71876 	 R2:  0.6504
+		 epoch  24 	  total loss:   6.50758 	 R2:  0.659
+		 epoch  28 	  total loss:   6.33125 	 R2:  0.6658
+		 epoch  32 	  total loss:   6.17523 	 R2:  0.6714
+		 epoch  36 	  total loss:   6.04787 	 R2:  0.6754
+		 epoch  40 	  total loss:   5.94734 	 R2:  0.678
+		 epoch  44 	  total loss:   5.8646 	 R2:  0.6796
+		 epoch  48 	  total loss:   5.79383 	 R2:  0.6806
+		 epoch  49 	  total loss:   5.77748 	 R2:  0.6808
+	-Run(lr=0.0001, weight_decay=0, N_epochs=50, hid_units=64, K=2) 545.83 seconds
+	Total parameters: 	 12672 
+
