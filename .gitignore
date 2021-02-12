@@ -17,3 +17,4 @@ networks/Exeter/TLN_info.csv
 networks/Exeter/Exeter Characteristics.xlsx
 .ipynb_checkpoints/GNN_Filters_PyG-checkpoint.ipynb
 .ipynb_checkpoints/ANN_PyTorch-checkpoint.ipynb
+*.p
